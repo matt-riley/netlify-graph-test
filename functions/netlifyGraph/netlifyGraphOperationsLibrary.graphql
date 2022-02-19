@@ -1,0 +1,19 @@
+query dailyTotal @netlify(id: """ed706db6-6a1e-41f6-a58c-57e5c837beed""", doc: """An example query to start with.""") {
+  npm {
+    downloads {
+      lastDay {
+        count
+      }
+    }
+  }
+}
+
+query weeklyTotal @netlify(id: """d84e19b5-0a72-4b27-a05b-05d824332e10""", doc: """An empty query to start from""") {
+  npm {
+    downloads {
+      lastWeek {
+        count
+      }
+    }
+  }
+}
