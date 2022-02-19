@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/matt-riley/netlify-graph-test/issues"
   },
-  "homepage": "https://github.com/matt-riley/netlify-graph-test#readme"
+  "homepage": "https://github.com/matt-riley/netlify-graph-test#readme",
+  "dependencies": {
+    "node-fetch": "2.6.7"
+  }
 }
