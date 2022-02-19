@@ -1,18 +1,5 @@
 ---
 let title = "NPM Downloads";
-
-const url = `${process.env.URL}/.netlify/functions/getDailyTotal`;
-console.log(url);
-
-let daily = await fetch(
-  `${process.env.NETLIFY_URL}/.netlify/functions/getDailyTotal`
-)
-  .then((res) => res.json())
-  .then((data) => {
-    console.log(data);
-    return data;
-  })
-  .catch((err) => console.log(err));
 ---
 
 <html lang="en">
@@ -37,11 +24,7 @@ let daily = await fetch(
   </head>
   <body>
     <main>
-      <h2>
-        Yesterdays total: {parseInt(
-          daily.npm.downloads.lastDay.count
-        ).toLocaleString()}
-      </h2>
+      <h2>Yesterdays total:</h2>
     </main>
   </body>
 </html>
