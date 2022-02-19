@@ -1,0 +1,10 @@
+---
+import DailyTotal from "../components/DailyTotal.jsx";
+
+const url = process.env.URL;
+console.log(url);
+---
+
+<div>
+  <DailyTotal {url} client:only />
+</div>
