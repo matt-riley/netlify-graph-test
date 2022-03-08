@@ -33,6 +33,6 @@
   },
   "homepage": "https://github.com/matt-riley/netlify-graph-test#readme",
   "dependencies": {
-    "node-fetch": "2.6.7"
+    "node-fetch": "3.2.2"
   }
 }
