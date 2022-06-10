@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@astrojs/renderer-react": "0.5.0",
-    "@typescript-eslint/eslint-plugin": "5.27.0",
+    "@typescript-eslint/eslint-plugin": "5.27.1",
     "@typescript-eslint/parser": "5.27.1",
     "astro": "0.26.1",
     "eslint": "8.17.0",
